@@ -1,0 +1,45 @@
+{
+  "name": "video-generation-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for AI video generation app",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext ts,tsx",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write src/**/*.{ts,tsx}",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1",
+    "@reduxjs/toolkit": "^1.9.7",
+    "react-redux": "^8.1.3",
+    "axios": "^1.6.5",
+    "tailwindcss": "^3.4.1",
+    "clsx": "^2.0.0",
+    "recharts": "^2.10.3",
+    "react-hot-toast": "^2.4.1",
+    "zustand": "^4.4.2",
+    "react-icons": "^4.12.0",
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8",
+    "typescript": "^5.3.3",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0",
+    "eslint": "^8.56.0",
+    "eslint-config-react-app": "^7.0.1",
+    "prettier": "^3.1.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "vitest": "^1.0.4"
+  }
+}
